@@ -1,1 +1,1 @@
-{"name":"Your Project Name","uuid":"%uuid%","mainClass":"org.burgerbude.labymod.addons.example.ExampleAddon"}
+{"name":"GlintColorizer","uuid":"%uuid%","mainClass":"org.burgerbude.labymod.addons.glintcolorizer.GlintColorizerAddon","transformerClass":"org.burgerbude.labymod.addons.glintcolorizer.GlintColorizerTransformer"}

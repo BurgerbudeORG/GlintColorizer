@@ -1,6 +1,5 @@
 buildscript {
     repositories {
-        mavenLocal()
         jcenter()
         maven {
             name "burgerbude-repo"
@@ -40,7 +39,8 @@ minecraft {
 labymod {
     labymod(MAPPINGS, "1.12.2")
     config {
-        mainClass 'org.burgerbude.labymod.addons.example.ExampleAddon'
+        mainClass 'org.burgerbude.labymod.addons.glintcolorizer.GlintColorizerAddon'
+        transformerClass 'org.burgerbude.labymod.addons.glintcolorizer.GlintColorizerTransformer'
     }
 }
 
